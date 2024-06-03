@@ -12,6 +12,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+### `npm install -f`
+This will install all the required packages to run the project. Since, this project uses the react-sortable-hoc which is an old package and it requires peer dependancy older versions of react so we'll need to do the force install of packages for running the project locally.
+
 ### `npm start`
 
 Runs the app in the development mode.\
