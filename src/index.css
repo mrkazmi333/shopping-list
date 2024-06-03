@@ -11,3 +11,53 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+/* src/index.css */
+.shopping-item {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+  align-items: center;
+}
+
+.shopping-list {
+  width: 700px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  height: 90vh;
+  position: relative;
+  overflow: scroll;
+}
+
+.shopping-list form {
+  margin-bottom: 20px;
+}
+
+
+.list-fields-cont {
+  display: flex;
+  gap: 20px;
+}
+
+.list-field-group { 
+  width: 50%;
+}
+
+.sortable-list-heading {
+  height: 40px;
+  border: 1px solid #ddd;
+  padding: 10px;
+  background-color: #ebebeb;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 12px 0;
+}
+
+.sortable-list-cont {
+  overflow: scroll;
+  height: calc(100vh - 430px);
+}
